@@ -67,15 +67,6 @@ public class DataLoader implements ApplicationRunner {
         folderRepository.save(engines);
         folderRepository.save(fueltanks);
         folderRepository.save(parachutes);
-
-        nerva.setFolder(engines);
-        booster.setFolder(engines);
-        bigorange.setFolder(fueltanks);
-        moose.setFolder(parachutes);
-        fileRepository.save(nerva);
-        fileRepository.save(booster);
-        fileRepository.save(bigorange);
-        fileRepository.save(moose);
     }
 
 }
