@@ -37,6 +37,10 @@ public class Folder {
 
     }
 
+    public void addFile(File file){
+        this.files.add(file);
+    }
+
     public String getTitle() {
         return title;
     }

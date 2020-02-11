@@ -28,6 +28,10 @@ public class User {
         this.folders = new ArrayList<>();
     }
 
+    public void addFolder(Folder folder){
+        this.folders.add(folder);
+    }
+
     public User(){
     }
 
