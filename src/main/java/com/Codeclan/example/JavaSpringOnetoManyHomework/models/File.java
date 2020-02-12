@@ -47,12 +47,12 @@ public class File {
         this.filename = filename;
     }
 
-    public String getExtansion() {
+    public String getExtension() {
         return extension;
     }
 
-    public void setExtansion(String extansion) {
-        this.extension = extansion;
+    public void setExtension(String extension) {
+        this.extension = extension;
     }
 
     public int getSize() {
